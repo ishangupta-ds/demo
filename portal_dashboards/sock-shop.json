@@ -1,5 +1,5 @@
 {
-  "dashboardID": 1,
+  "dashboardID": "litmus-sock-shop",
   "name": "Sock Shop",
   "urlToIcon": "/icons/sock-shop.svg",
   "description": "Sock Shop application dashboard",
