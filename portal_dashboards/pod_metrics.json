@@ -1,5 +1,5 @@
 {
-  "dashboardID": 0,
+  "dashboardID": "litmus-pod-metrics",
   "name": "Pod metrics",
   "urlToIcon": "/icons/pod-metrics.svg",
   "description": "Pod dashboard",
