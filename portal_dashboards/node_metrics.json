@@ -1,5 +1,5 @@
 {
-  "dashboardID": 2,
+  "dashboardID": "litmus-node-metrics",
   "name": "Node metrics",
   "urlToIcon": "/icons/node-metrics.svg",
   "description": "Node dashboard",
