@@ -2,9 +2,9 @@
   "dashboardID": "litmus-node-metrics",
   "name": "Node metrics",
   "urlToIcon": "/icons/node-metrics.svg",
-  "description": "Node dashboard",
   "information": "This dashboard visualizes Node level CPU, memory, disk and IO utilization metrics interleaved with chaos events.",
   "chaosEventQueryTemplate": "litmuschaos_awaited_experiments{chaosresult_name=\"#{}\",chaosresult_namespace=\"*{}\", job=\"chaos-exporter\"}",
+  "chaosVerdictQueryTemplate": "litmuschaos_experiment_verdict{chaosresult_name=\"#{}\",chaosresult_namespace=\"*{}\", job=\"chaos-exporter\"}",
   "panelGroupMap": [
     {
       "groupName": "CPU Utilization Metrics",
