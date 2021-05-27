@@ -1,7 +1,6 @@
 {
-  "dashboardID": "litmus-sock-shop",
+  "dashboardID": "sock-shop",
   "name": "Sock Shop",
-  "urlToIcon": "/icons/sock-shop.svg",
   "information": "This dashboard visualizes Sock Shop application metrics metrics interleaved with chaos events and chaos exporter metrics.",
   "chaosEventQueryTemplate": "litmuschaos_awaited_experiments{chaosresult_name=\"#{}\",chaosresult_namespace=\"*{}\", job=\"chaos-exporter\"}",
   "chaosVerdictQueryTemplate": "litmuschaos_experiment_verdict{chaosresult_name=\"#{}\",chaosresult_namespace=\"*{}\", job=\"chaos-exporter\"}",
