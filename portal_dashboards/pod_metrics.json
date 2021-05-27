@@ -1,5 +1,5 @@
 {
-  "dashboardID": "litmus-pod-metrics",
+  "dashboardID": "pod_metrics",
   "name": "Pod metrics",
   "urlToIcon": "/icons/pod-metrics.svg",
   "information": "This dashboard visualizes Pod level CPU and memory usage metrics interleaved with chaos events.",
