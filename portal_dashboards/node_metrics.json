@@ -1,5 +1,5 @@
 {
-  "dashboardID": "node_metrics",
+  "dashboardID": "generic_node_metrics",
   "name": "Node metrics",
   "information": "This dashboard visualizes Node level CPU, memory, disk and IO utilization metrics interleaved with chaos events.",
   "chaosEventQueryTemplate": "litmuschaos_awaited_experiments{chaosresult_name=\"#{}\",chaosresult_namespace=\"*{}\", job=\"chaos-exporter\"}",
