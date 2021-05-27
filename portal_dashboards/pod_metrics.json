@@ -1,5 +1,5 @@
 {
-  "dashboardID": "pod_metrics",
+  "dashboardID": "generic_pod_metrics",
   "name": "Pod metrics",
   "information": "This dashboard visualizes Pod level CPU and memory usage metrics interleaved with chaos events.",
   "chaosEventQueryTemplate": "litmuschaos_awaited_experiments{chaosresult_name=\"#{}\",chaosresult_namespace=\"*{}\", job=\"chaos-exporter\"}",
