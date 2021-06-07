@@ -41,7 +41,7 @@
         {
           "panel_name": "Orders QPS",
           "panel_options": {
-            "points": true,
+            "points": false,
             "grids": true,
             "left_axis": true
           },
@@ -71,7 +71,7 @@
         {
           "panel_name": "Orders Latency",
           "panel_options": {
-            "points": true,
+            "points": false,
             "grids": true,
             "left_axis": true
           },
@@ -114,7 +114,7 @@
         {
           "panel_name": "Catalogue QPS",
           "panel_options": {
-            "points": true,
+            "points": false,
             "grids": true,
             "left_axis": true
           },
@@ -144,7 +144,7 @@
         {
           "panel_name": "Catalogue Latency",
           "panel_options": {
-            "points": true,
+            "points": false,
             "grids": true,
             "left_axis": true
           },
@@ -187,7 +187,7 @@
         {
           "panel_name": "Payment QPS",
           "panel_options": {
-            "points": true,
+            "points": false,
             "grids": true,
             "left_axis": true
           },
@@ -217,7 +217,7 @@
         {
           "panel_name": "Payment Latency",
           "panel_options": {
-            "points": true,
+            "points": false,
             "grids": true,
             "left_axis": true
           },
@@ -260,7 +260,7 @@
         {
           "panel_name": "Shipping QPS",
           "panel_options": {
-            "points": true,
+            "points": false,
             "grids": true,
             "left_axis": true
           },
@@ -290,7 +290,7 @@
         {
           "panel_name": "Shipping Latency",
           "panel_options": {
-            "points": true,
+            "points": false,
             "grids": true,
             "left_axis": true
           },
@@ -333,7 +333,7 @@
         {
           "panel_name": "User QPS",
           "panel_options": {
-            "points": true,
+            "points": false,
             "grids": true,
             "left_axis": true
           },
@@ -363,7 +363,7 @@
         {
           "panel_name": "User Latency",
           "panel_options": {
-            "points": true,
+            "points": false,
             "grids": true,
             "left_axis": true
           },
@@ -406,7 +406,7 @@
         {
           "panel_name": "Frontend QPS",
           "panel_options": {
-            "points": true,
+            "points": false,
             "grids": true,
             "left_axis": true
           },
@@ -436,7 +436,7 @@
         {
           "panel_name": "Frontend Latency",
           "panel_options": {
-            "points": true,
+            "points": false,
             "grids": true,
             "left_axis": true
           },
@@ -479,7 +479,7 @@
         {
           "panel_name": "Cart QPS",
           "panel_options": {
-            "points": true,
+            "points": false,
             "grids": true,
             "left_axis": true
           },
@@ -509,7 +509,7 @@
         {
           "panel_name": "Cart Latency",
           "panel_options": {
-            "points": true,
+            "points": false,
             "grids": true,
             "left_axis": true
           },

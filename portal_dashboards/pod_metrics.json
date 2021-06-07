@@ -21,7 +21,7 @@
         {
           "panel_name": "Chaos-Pod-CPU Usage",
           "panel_options": {
-            "points": true,
+            "points": false,
             "grids": true,
             "left_axis": true
           },
@@ -48,7 +48,7 @@
         {
           "panel_name": "Chaos-Pod-Memory Usage",
           "panel_options": {
-            "points": true,
+            "points": false,
             "grids": true,
             "left_axis": true
           },
