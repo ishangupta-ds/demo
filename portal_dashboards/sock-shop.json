@@ -55,16 +55,16 @@
               "legend": "2xx",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "sum(rate(request_duration_seconds_count{ job=\"orders\", status_code=~\"4.+|5.+\" }[1m])) * 100",
               "legend": "4xx/5xx",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             }
           ]
         },
@@ -85,24 +85,24 @@
               "legend": "99th quantile",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "histogram_quantile(0.5, sum(rate(request_duration_seconds_bucket{job=\"orders\"}[1m])) by (name, le))",
               "legend": "50th quantile",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "sum(rate(request_duration_seconds_sum{job=\"orders\"}[1m])) / sum(rate(request_duration_seconds_count{job=\"orders\"}[1m]))",
               "legend": "Mean",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             }
           ]
         }
@@ -128,16 +128,16 @@
               "legend": "2xx",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "sum(rate(request_duration_seconds_count{ job=\"catalogue\", status_code=~\"4.+|5.+\" }[1m])) * 100",
               "legend": "4xx/5xx",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             }
           ]
         },
@@ -158,24 +158,24 @@
               "legend": "99th quantile",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "histogram_quantile(0.5, sum(rate(request_duration_seconds_bucket{job=\"catalogue\"}[1m])) by (name, le))",
               "legend": "50th quantile",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "sum(rate(request_duration_seconds_sum{job=\"catalogue\"}[1m])) / sum(rate(request_duration_seconds_count{job=\"catalogue\"}[1m]))",
               "legend": "Mean",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             }
           ]
         }
@@ -201,16 +201,16 @@
               "legend": "2xx",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "sum(rate(request_duration_seconds_count{ job=\"payment\", status_code=~\"4.+|5.+\" }[1m])) * 100",
               "legend": "4xx/5xx",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             }
           ]
         },
@@ -231,24 +231,24 @@
               "legend": "99th quantile",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "histogram_quantile(0.5, sum(rate(request_duration_seconds_bucket{job=\"payment\"}[1m])) by (name, le))",
               "legend": "50th quantile",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "sum(rate(request_duration_seconds_sum{job=\"payment\"}[1m])) / sum(rate(request_duration_seconds_count{job=\"payment\"}[1m]))",
               "legend": "Mean",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             }
           ]
         }
@@ -274,16 +274,16 @@
               "legend": "2xx",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "sum(rate(request_duration_seconds_count{ job=\"shipping\", status_code=~\"4.+|5.+\" }[1m])) * 100",
               "legend": "4xx/5xx",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             }
           ]
         },
@@ -304,24 +304,24 @@
               "legend": "99th quantile",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "histogram_quantile(0.5, sum(rate(request_duration_seconds_bucket{job=\"shipping\"}[1m])) by (name, le))",
               "legend": "50th quantile",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "sum(rate(request_duration_seconds_sum{job=\"shipping\"}[1m])) / sum(rate(request_duration_seconds_count{job=\"shipping\"}[1m]))",
               "legend": "Mean",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             }
           ]
         }
@@ -347,16 +347,16 @@
               "legend": "2xx",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "sum(rate(request_duration_seconds_count{ job=\"user\", status_code=~\"4.+|5.+\" }[1m])) * 100",
               "legend": "4xx/5xx",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             }
           ]
         },
@@ -377,24 +377,24 @@
               "legend": "99th quantile",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "histogram_quantile(0.5, sum(rate(request_duration_seconds_bucket{job=\"user\"}[1m])) by (name, le))",
               "legend": "50th quantile",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "sum(rate(request_duration_seconds_sum{job=\"user\"}[1m])) / sum(rate(request_duration_seconds_count{job=\"user\"}[1m]))",
               "legend": "Mean",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             }
           ]
         }
@@ -420,16 +420,16 @@
               "legend": "2xx",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "sum(rate(request_duration_seconds_count{ job=\"front-end\", status_code=~\"4.+|5.+\" }[1m])) * 100",
               "legend": "4xx/5xx",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             }
           ]
         },
@@ -450,24 +450,24 @@
               "legend": "99th quantile",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "histogram_quantile(0.5, sum(rate(request_duration_seconds_bucket{job=\"front-end\"}[1m])) by (name, le))",
               "legend": "50th quantile",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "sum(rate(request_duration_seconds_sum{job=\"front-end\"}[1m])) / sum(rate(request_duration_seconds_count{job=\"front-end\"}[1m]))",
               "legend": "Mean",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             }
           ]
         }
@@ -493,16 +493,16 @@
               "legend": "2xx",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "sum(rate(request_duration_seconds_count{ job=\"carts\", status_code=~\"4.+|5.+\" }[1m])) * 100",
               "legend": "4xx/5xx",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             }
           ]
         },
@@ -523,24 +523,24 @@
               "legend": "99th quantile",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "histogram_quantile(0.5, sum(rate(request_duration_seconds_bucket{job=\"carts\"}[1m])) by (name, le))",
               "legend": "50th quantile",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             },
             {
               "prom_query_name": "sum(rate(request_duration_seconds_sum{job=\"carts\"}[1m])) / sum(rate(request_duration_seconds_count{job=\"carts\"}[1m]))",
               "legend": "Mean",
               "resolution": "1/2",
               "minstep": "5",
-              "line": false,
-              "close_area": true
+              "line": true,
+              "close_area": false
             }
           ]
         }
